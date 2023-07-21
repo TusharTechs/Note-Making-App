@@ -37,6 +37,21 @@ The Note Making App is a web application that allows users to create, edit, and 
 
 ### Note: The application uses React Hooks to manage state and side effects.
 
+## Screenshots
+
+### No New Notes!
+
+![Screenshot_38](https://github.com/TusharTechs/Note-Making-App/assets/56952465/75c96ad3-e305-4042-9e68-dedc6da33064)
+
+### Choosing a note of your favorite color and Styles!
+
+![Screenshot_39](https://github.com/TusharTechs/Note-Making-App/assets/56952465/b5f71c20-9c68-4199-a0eb-fcaa12231845)
+
+### Searching a Note
+
+![Screenshot_40](https://github.com/TusharTechs/Note-Making-App/assets/56952465/76f00fe0-6e91-4be2-9d42-9a376c7ac130)
+
+
 ## Technologies Used
 React.js
 JavaScript
@@ -47,3 +62,6 @@ Contributions to the Note Making App are welcome! If you find any issues or have
 
 ## License
 The Note Making App is open-source software licensed under the [MIT License](LICENSE).
+
+## Contact
+For additional information or inquiries about the Tour and Travel Management System, you can contact me at tusharaggarwal274@gmail.com.
