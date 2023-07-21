@@ -53,9 +53,9 @@ The Note Making App is a web application that allows users to create, edit, and 
 
 
 ## Technologies Used
-React.js
-JavaScript
-CSS
+1. React.js
+2. JavaScript
+3. CSS
 
 ## Contributing
 Contributions to the Note Making App are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
