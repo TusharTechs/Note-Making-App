@@ -1,0 +1,119 @@
+.note {
+  padding: 25px;
+  height: 280px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  border-radius: 30px;
+}
+
+
+.note_text {
+  flex: 1;
+  resize: none;
+  background-color: transparent;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  outline: none;
+  border: none;
+}
+
+.note_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note_footer img {
+  cursor: pointer;
+  opacity: 0;
+  transition: 300ms;
+}
+
+.note:hover .note_footer img {
+  opacity: 1;
+}
+
+.formatting-buttons {
+  display: flex;
+}
+
+.formatting-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.formatting-buttons button:hover,
+.formatting-buttons button[active="true"] {
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.formatting-buttons button:active {
+  transform: scale(0.9);
+}
+
+/* Add individual styles for each formatting button */
+
+.formatting-buttons button.bold {
+  font-weight: bold;
+}
+
+.formatting-buttons button.italic {
+  font-style: italic;
+}
+
+.formatting-buttons button.underline {
+  text-decoration: underline;
+}
+
+.formatting-buttons button.strike {
+  text-decoration: line-through;
+}
+
+/* Add styles for the formatted-text section */
+
+.formatted-text {
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline.strike {
+  text-decoration: underline line-through;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+@media screen and (width<=480px) {
+  .note {
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+  }
+}
