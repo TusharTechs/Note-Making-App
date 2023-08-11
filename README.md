@@ -8,6 +8,9 @@ The Note Making App is a web application that allows users to create, edit, and 
 ### Usage
 ### Components
 
+## Deployment Link
+https://note-making-app-delta.vercel.app/
+
 ## Features 
 1. Create new notes with different background colors.
 2. Format text in notes with options for bold, italic, underline, and strike-through.
